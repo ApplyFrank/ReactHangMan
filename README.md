@@ -3,4 +3,5 @@ A Hangman Game following WebDevSimplified's tutorial
 
 https://www.youtube.com/watch?v=-ONUyenGnWw&t=2298s
 
-![Screenshot 2023-05-01 at 8 37 12 AM](https://user-images.githubusercontent.com/105822946/235479603-f30e380b-eb21-4937-9c19-e07a4b3276a4.png)
+
+<img width="1792" alt="Screenshot 2023-05-01 at 2 45 49 PM" src="https://user-images.githubusercontent.com/105822946/235537290-0b3f0d5b-af30-4e88-a334-de4e4e19d697.png">
