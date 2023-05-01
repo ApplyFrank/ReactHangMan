@@ -1,9 +1,10 @@
 type HangmanWordProps = {
+    revealWord?: boolean
     guessedLetters: string[]
     wordToGuess: string
 }
 
-export function HangmanWord({guessedLetters, wordToGuess}: HangmanWordProps) {
+export function HangmanWord({revealWord = false ,guessedLetters, wordToGuess}: HangmanWordProps) {
     return (
         <div
             style={{
@@ -19,9 +20,10 @@ export function HangmanWord({guessedLetters, wordToGuess}: HangmanWordProps) {
                 <span style={{ borderBottom: ".1em solid black" }} key={index}>
                     <span
                         style={{
-                            visibility: guessedLetters.includes(letter)
+                            visibility: guessedLetters.includes(letter) || revealWord
                             ? "visible"
                             : "hidden",
+                            color : !guessedLetters.includes(letter) && revealWord ? "red" : "black",
                         }}
                     >
                         {letter}
